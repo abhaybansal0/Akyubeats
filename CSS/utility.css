@@ -1,0 +1,130 @@
+.flex {
+    display: flex;
+}
+
+
+.justify-center {
+    justify-content: center;
+}
+
+.item-center {  
+    align-items: center;
+}
+
+.bg-black {
+    background-color: black;
+    color: white;
+}
+
+.invert {
+    filter: invert(1);
+}
+
+.bg-grey {
+    background-color: #121212;
+}
+
+.rounded {
+    border-radius: 7px;
+}
+
+.m-1 {
+    margin: 5px;
+}
+
+.m-l{
+    margin-left: 15px;
+}
+
+.m-u{
+    margin-top: 10px;
+}
+
+.p-1 {
+    padding: 13px;
+}
+.p-2{
+    padding: 5px;
+}
+
+/* Style for the entire scrollbar */
+::-webkit-scrollbar {
+    width: 12px;
+    /* Width of the scrollbar */
+}
+
+/* Style for the track (the background part) */
+::-webkit-scrollbar-track {
+    background: #1a1a1a;
+    /* Dark background */
+}
+
+/* Style for the draggable thumb (the scrolling handle) */
+::-webkit-scrollbar-thumb {
+    background-color: #333;
+    /* Darker gray thumb */
+    border-radius: 6px;
+    /* Rounded corners */
+    border: 3px solid #1a1a1a;
+    /* Creates padding around the thumb */
+}
+
+/* Optional: Style for the thumb when hovered */
+::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
+    /* Lighter gray on hover */
+}
+
+
+.playkrbe {
+    width: 20%;
+    max-height: 40px;
+}
+
+.hidden {
+    display: none;
+}
+
+.fixw {
+    width: 30px;
+}
+
+.click_ani {
+    transition: transform 0.1s ease;
+    cursor: pointer;
+}
+
+.click_ani:active {
+    transform: scale(0.9);
+    /* Scale down to 90% */
+}
+
+.cursive {
+    font-family: 'Satisfy', cursive;
+}
+svg {
+    fill: #4D004D;
+}
+
+
+.rotate{
+    transform: rotateY(360deg);
+}
+
+.rotate2{
+    transform: rotate(90deg);
+}
+
+img {
+    -webkit-user-drag: none;       /* Prevent dragging */
+    user-select: none;             /* Prevent selection */
+    outline: none;                 /* Remove outline */
+    box-shadow: none;              /* Remove any default shadows */
+    -webkit-tap-highlight-color: transparent; /* Disable tap highlight for mobile browsers */
+    appearance: none;
+}
+  
+img:focus, img:active {
+    outline: none;                 /* Remove active state outline */
+    box-shadow: none;              /* Ensure no box-shadow on click */
+}

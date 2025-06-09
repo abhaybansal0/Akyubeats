@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>AkyuBeats</title>
+
+    <link rel="stylesheet" href="/CSS/style.css">
+    <link rel="stylesheet" href="/CSS/utility.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Satisfy&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container flex bg-black">
+
+        <div class="left border ">
+
+            <div class="home bg-grey rounded m-1 p-1">
+
+                <div class="logo">
+                    <img class=" m_logo" src="/SVGs/AkyuBeats Logo.png" alt="logo">
+                    <div class="Title"> AkyuBeats</div>
+                </div>
+
+                <ul>
+                    <li class="m-l m-u"><img class="invert" src="/SVGs/home.svg" alt="home">Home</li>
+                    <li class="m-l"><img class="invert" src="/SVGs/search.svg" alt="home">Search</li>
+                </ul>
+
+                <img src="/SVGs/cross.svg" alt="Cross Was Here bleeeh" class="cross">
+            </div>
+
+
+            <div class="library bg-grey rounded m-1 p-1">
+                <div class="heading flex m-l">
+                    <img class="invert" src="/SVGs/library.svg" alt="lib">
+                    <h2>Library</h2>
+                </div>
+
+                <div class="songlist">
+                    <ul>
+
+
+
+                    </ul>
+
+                </div>
+
+                <div class="footer">
+                    <div><a href="" id="" data-encore-id="textLink"><span
+                                data-encore-id="type">About Me</span></a></div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+        <div class="right border bg-grey p-1 rounded">
+
+            <div class="header flex rounded">
+
+                <div class="flex">
+
+                    <div class="ham nav ">
+                        <img src="/SVGs/Ham.svg" alt="Hamburger" class="haam">
+                    </div>
+                    
+                    <div class="nav  arrows">
+                        <img src="/SVGs/arrow_left.svg" alt="left" class="arrow ">
+                        <img src="/SVGs/arrow_right.svg" alt="left" class="arrow ">
+                    </div>
+                </div>
+
+                <div class="buttons">
+                    <button class="signupbtn">Sign up</button>
+                    <button class="loginbtn">Log in</button>
+                </div>
+            </div>
+
+
+
+            <div class="spotifyPlaylist bg-grey">
+                <h1 class="cursive">Abhay's Playlist</h1>
+
+                <div class="cardContainer rounded">
+
+                    <div class="card">
+                        <img src="/SVGs/play.svg" alt="play" class="play ">
+                        <img src="https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/c2/8b/c5/c28bc5c3-5735-1283-21de-b5c802b1110d/cover.jpg/800x800cc.jpg"
+                            alt="" class="card_img rounded">
+                        <h3>2000s Rock</h3>
+                        <p>Alex Clare, One Republic and more</p>
+                    </div>
+
+                    <div class="card">
+                        <img src="/SVGs/play.svg" alt="play" class="play">
+                        <img src="/SVGs/em.jpeg"
+                            alt="" class="card_img rounded">
+                        <h3>Eminem</h3>
+                        <p>Best Songs By Eminem</p>
+                    </div>
+
+                    <div class="card">
+                        <img src="/SVGs/play.svg" alt="play" class="play">
+                        <img src="/SVGs/Metal.jpg" alt="" class="card_img rounded">
+                        <h3>Metal</h3>
+                        <p>Energizing Songs by Artists</p>
+                    </div>
+                    
+                    <div class="card">
+                        <img src="/SVGs/play.svg" alt="play" class="play">
+                        <img src="/SVGs/samurai.jpg" alt="" class="card_img rounded ">
+                        <h3>Anime OST</h3>
+                        <p>Love & Hate</p>
+                    </div>
+
+
+
+                </div>
+
+
+
+                <!-- // PlayBar -->
+                <div class="playbar">
+
+                    <div class="seakbar">
+                        <div class="circle">
+
+                        </div>
+                    </div>
+
+                    <div class="songbuttons">
+
+                        <div class="song_info">
+                            <div class="song_infor_ticker">
+                                <span id="scro_s_name"></span>
+                            </div>
+                        </div>
+
+                        <div class="controls">
+                            <img src="/SVGs/previous.svg" alt="previous" class="click_ani" id="skipp_before">
+                            <!--previousSong button-->
+
+                            <img src="/SVGs/play02.svg" alt="playing"
+                                class="playbtn play_pausebtns fixw click_ani hidden" id="play_pause">
+                            <img src="/SVGs/pause.svg" alt="pause btn" class="playbtn play_pausebtns fixw click_ani"
+                                id="pause_play">
+
+                            <img src="/SVGs/nextsong.svg" alt="nextsong" class="click_ani" id="skipp_ahead">
+                            <!-- nextSongbutton -->
+
+                            
+                            
+                            
+                        </div>
+                        
+                        <div class="volume">
+                            <img src="/SVGs/loop.svg" alt="looping_playlist" class="loop click_ani" id="loop_p">
+                            <img src="/SVGs/loop_1.svg" alt="looping_song" class="loop click_ani hidden" id="loop_s">
+                            <div class="timer" id="timer">0:0 / 0:0</div>
+
+                        </div>
+                    </div>
+
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+
+
+
+    <script src="/JS/script.js"></script>
+</body>
+
+</html>
