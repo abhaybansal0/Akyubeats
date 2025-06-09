@@ -1,6 +1,6 @@
 # 🎧 AkyuBeats
 
-![AkyuBeats Banner](./public/Akyubeats.png)
+![AkyuBeats Banner](./SVGs/Akyubeats.png)
 
 **AkyuBeats** is a sleek, responsive music streaming web app built with JavaScript, HTML5, and CSS3. It offers a smooth audio experience with custom controls, playlist management, and real-time progress tracking, optimized especially for mobile devices.
 
